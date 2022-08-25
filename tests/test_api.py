@@ -29,7 +29,6 @@ def test_create_user(client):
                 "auth_type": 0,
                 "external_id": "u-007",
                 "labels": {"1": "2", "3": "4"},
-                "external_labels": {"1": "2", "3": "4"},
                 "password": "qwerty",
                 "lang": "ru",
             }
